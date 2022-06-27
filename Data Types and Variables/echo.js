@@ -7,5 +7,3 @@ function echo (param) {
         console.log('Parameter is not suitable for printing');
     }
 }
-
-echo(10);
