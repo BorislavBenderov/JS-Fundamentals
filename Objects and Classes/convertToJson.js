@@ -1,11 +1,10 @@
-function convertToJSON(firstName, lastName, hairColor) {
+function convertToJSON(name, lastName, hairColor) {
     let res = {
-        firstName,
+        name,
         lastName,
         hairColor
     }
+
     let resAsString = JSON.stringify(res);
     console.log(resAsString);
 }
-
-convertToJSON('George', 'Jones', 'Brown');
